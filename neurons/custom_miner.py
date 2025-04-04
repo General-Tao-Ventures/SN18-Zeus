@@ -64,7 +64,7 @@ class Miner(BaseMinerNeuron):
             "cell_selection": "land",  # Prefer land cells with similar elevation
             "models": "best_match",  # Let API choose best models
             "timezone": "GMT",  # Ensure consistent timezone
-            "apikey": "api_key_here"
+            "apikey": "QRFFTYYcDrXXBEVL"
         }
         
         try:
