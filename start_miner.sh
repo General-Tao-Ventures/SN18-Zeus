@@ -12,7 +12,7 @@ if pm2 list | grep -q "$MINER_PROCESS_NAME"; then
   pm2 delete $MINER_PROCESS_NAME
 fi
 
-pm2 start neurons/miner.py --name $MINER_PROCESS_NAME -- \
+pm2 start neurons/custom_miner.py --name $MINER_PROCESS_NAME -- \
   --netuid $NETUID \
   --subtensor.network $SUBTENSOR_NETWORK \
   --subtensor.chain_endpoint $SUBTENSOR_CHAIN_ENDPOINT \
